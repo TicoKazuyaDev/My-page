@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section#cabeca{
+    background-color: rgb(0, 0, 0);
+    background-image: url('');
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    padding: 200px;
+    padding-bottom: 10px;
+}
+
+h2{
+    padding: 200px;
+    padding-top: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(46, 39, 77), rgb(37, 29, 159), rgb(0, 0, 0) );
+    color: aliceblue;
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+}
