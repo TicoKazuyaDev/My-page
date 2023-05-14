@@ -21,9 +21,18 @@ div#linkedin{
     background-size: cover;
 }
 div#github{
-    background-image: url('/imagens/git.png');
+    background-image: url('/imagens/github.png');
     background-size: cover;
 }
+
+nav > a {
+    padding-right: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.275);
+}
+
 
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -33,7 +42,10 @@ body{
 
 main{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
+}
+main > nav{
+    padding-left: 20px;
 }
 
 div.quadrado{
@@ -45,11 +57,13 @@ div.quadrado{
 }
 
 h1{
+    text-shadow: 5px 5px 10px black;
     padding: 200px;
     padding-bottom: 10px;
 }
 
 h4{
+    text-shadow: 5px 5px 10px black;
     padding: 200px;
     padding-top: 10px;
 
