@@ -4,8 +4,8 @@
 }
 
 section#cabeca{
-    background-color: rgb(0, 0, 0);
-    background-image: url('');
+    background-image: linear-gradient( to bottom, black, gray);
+    background-image: url('/imagens/digitandoMedio.jpg');
 }
 
 body{
