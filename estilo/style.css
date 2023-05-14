@@ -6,6 +6,9 @@
 section#cabeca{
     background-image: linear-gradient( to bottom, black, gray);
     background-image: url('/imagens/digitandoMedio.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
