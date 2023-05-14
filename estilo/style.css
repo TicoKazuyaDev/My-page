@@ -12,6 +12,18 @@ section#cabeca{
     background-repeat: no-repeat;
     background-size: cover;
 }
+div#instagram{
+    background-image: url('/imagens/instagran.png');
+    background-size: cover;
+}
+div#linkedin{
+    background-image: url('/imagens/linkedin.png');
+    background-size: cover;
+}
+div#github{
+    background-image: url('/imagens/git.png');
+    background-size: cover;
+}
 
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -24,8 +36,12 @@ main{
     padding-bottom: 20px;
 }
 
-div.instagram div.linkedin div.github{
-    box-sizing: 3px;
+div.quadrado{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
 }
 
 h1{
